@@ -1,7 +1,10 @@
 {
-  "name": "@material-ui/pickers",
-  "version": "4.0.0-alpha.9",
-  "private": true,
+  "name": "@volcanotel/pickers",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "version": "1.0.0-alpha.1",
+  "private": false,
   "description": "React components, that implements material design pickers for material-ui v4",
   "main": "./src/index.ts",
   "module": "./src/index.ts",
@@ -20,12 +23,12 @@
   "sideEffects": false,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mui-org/material-ui-pickers/issues"
+    "url": "https://github.com/volcanotel/material-ui-pickers/issues"
   },
   "homepage": "https://material-ui-pickers.dev/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mui-org/material-ui-pickers"
+    "url": "git://github.com/volcanotel/material-ui-pickers.git"
   },
   "author": {
     "name": "Dmitriy Kovalenko",
